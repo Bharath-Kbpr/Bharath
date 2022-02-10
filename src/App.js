@@ -1,4 +1,4 @@
-
+import React from 'react';
 import Aboutpage from './component/Aboutpage'
 import Portfolio from './component/Portfolio'
 import Example from './component/Example'

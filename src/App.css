@@ -2,10 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-@font-face{
-  font-family: Monument;
-  src:url("./images/font/Monument\ Extended\ Bold.ttf")
-}
+
 
 *{
   margin: 0;
@@ -19,7 +16,7 @@ body{
   background-color: #0192cc; */
 
   font-family: 'Dela Gothic One';
-  font-family: Monument;
+
 }
 
 /* h1{
