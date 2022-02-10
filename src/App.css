@@ -16,7 +16,7 @@ body{
   background-color: #0192cc; */
 
   font-family: 'Dela Gothic One';
-
+ 
 }
 
 /* h1{
@@ -57,7 +57,7 @@ body{
   color: #fff;
   font-size: .4rem;
   line-height: 1rem;
-  letter-spacing: .5rem;
+  letter-spacing: .4rem;
 }
 .p_menuitems{
   display: flex;

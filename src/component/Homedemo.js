@@ -48,9 +48,9 @@ let introbharath = useRef(null);
     //     amount: .4
     // },
     // })
-    timeline.to([introbharath],.5 ,{
+    timeline.to([introbharath],.6 ,{
       delay:4,
-        scale:3,
+        scale:10,
         ease:easeio
     })
     timeline.to([containerintro],.5 ,{
@@ -115,17 +115,17 @@ timeline.from([fireimg], .8, {
    <div className='container' ref ={el => containerintro = el}>
     
     <div className="text_wrapper">
-           <div className="text-1 text">Bharath kbpr</div>
-           <div className="text-2 text">Bharath kbpr</div>
-           <div className="text-3 text">Bharath kbpr</div>
-           <div className="text-4 text">Bharath kbpr</div>
-           <div className="text-5 text">Bharath kbpr</div>
-           <div className="text-6 text" ref ={el => introbharath = el}>Bharath kbpr</div>
-           <div className="text-7 text">Bharath kbpr</div>
-           <div className="text-8 text">Bharath kbpr</div>
-           <div className="text-9 text">Bharath kbpr</div>
-           <div className="text-10 text">Bharath kbpr</div>
-           <div className="text-11 text">Bharath kbpr</div>
+           <div className="text-1 text">Bharath  kbpr</div>
+           <div className="text-2 text">Bharath  kbpr</div>
+           <div className="text-3 text">Bharath  kbpr</div>
+           <div className="text-4 text">Bharath  kbpr</div>
+           <div className="text-5 text">Bharath  kbpr</div>
+           <div className="text-6 text" ref ={el => introbharath = el}>Bharath  kbpr</div>
+           <div className="text-7 text">Bharath  kbpr</div>
+           <div className="text-8 text">Bharath  kbpr</div>
+           <div className="text-9 text">Bharath  kbpr</div>
+           <div className="text-10 text">Bharath  kbpr</div>
+           <div className="text-11 text">Bharath  kbpr</div>
         </div>
     
       
