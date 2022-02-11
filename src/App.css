@@ -1349,6 +1349,8 @@ display: none;
   align-items: center;
   justify-content: space-between;
   margin: 1%;
+  position: relative;
+  overflow: hidden;
 }
 .ContactT ul{
   display: flex;
@@ -1686,4 +1688,95 @@ margin-top: 30%;
   background: rgb(0, 195, 255);
   top: 0%;
   z-index: 2;
+}
+.computer{
+  display: none;
+  margin-left: 20%;
+  position: absolute;
+  bottom: 4rem;
+
+ 
+}
+@media(max-width:400px){
+ .computer{
+   display: block;
+ }
+  .computer svg{
+   display: block;
+    width: 90%;
+    z-index: 10 !important;
+  
+  }
+}
+#BGElement {
+  animation: changeColor 3s infinite alternate;
+}
+
+@keyframes changeColor {
+  0% {
+    fill: red;
+  }
+  100% {
+    fill: blue;
+  }
+}
+
+#SoccerBall {
+  animation: bounce 1s infinite ease-out alternate;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-100px);
+  }
+}
+
+#Shoe {
+  animation: rotate 2s infinite alternate;
+  transform-origin: right;
+  transform-box: fill-box;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(10deg);
+  }
+  70% {
+    transform: rotate(-5deg);
+  }
+}
+
+#RightHand {
+  animation: rotateHand 2s infinite alternate;
+  transform-origin: right;
+  transform-box: fill-box;
+}
+
+#LeftHand {
+  animation: rotateLHand 2s infinite alternate;
+  transform-origin: top left;
+  transform-box: fill-box;
+}
+
+@keyframes rotateHand {
+  0% {
+    transform: rotate(-5deg);
+  }
+
+  70% {
+    transform: rotate(10deg);
+  }
+}
+
+@keyframes rotateLHand {
+  0% {
+    transform: rotate(5deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
 }
