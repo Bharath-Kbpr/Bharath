@@ -2,7 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-
+@font-face {
+  font-family: MonumentR;
+  src: url('./font/MonumentExtended-Regular.otf');
+  
+}
+@font-face {
+  font-family: Monument;
+  src: url('./font/MonumentExtended-Ultrabold.otf');
+}
 
 *{
   margin: 0;
@@ -16,7 +24,7 @@ body{
   background-color: #0192cc; */
 
   font-family: 'Dela Gothic One';
- 
+  font-family: Monument;
 }
 
 /* h1{
@@ -1349,6 +1357,7 @@ display: none;
   align-items: center;
   justify-content: space-between;
   margin: 1%;
+  
   position: relative;
   overflow: hidden;
 }
@@ -1459,7 +1468,7 @@ display: none;
 .text {
    color: #ffffff;
    text-transform: uppercase;
-    font-weight: lighter;
+   font-family: MonumentR;
     font-size: 54px;
    
 }

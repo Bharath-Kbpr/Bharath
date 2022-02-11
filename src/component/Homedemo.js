@@ -50,7 +50,7 @@ let introbharath = useRef(null);
     // })
     timeline.to([introbharath],.6 ,{
       delay:4,
-        scale:10,
+        scale:80,
         ease:easeio
     })
     timeline.to([containerintro],.5 ,{
