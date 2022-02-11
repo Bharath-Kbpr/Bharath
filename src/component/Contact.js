@@ -14,6 +14,8 @@ function Contact({timeline, ease}) {
   let menu_item3 = useRef(null);
   let menu_item4 = useRef(null);
 
+  let football = useRef(null);
+
 
   let logo = useRef(null);
   let Menu = useRef(null);
@@ -57,6 +59,11 @@ timeline.from([socialc1, socialc2, socialc3], .7 ,{
    stagger: {
       amount: .4
   },
+   ease: ease
+})
+timeline.from(football , .7 ,{
+   opacity: 0,
+   y: 100,
    ease: ease
 })
 }, [])
@@ -106,7 +113,7 @@ timeline.from([socialc1, socialc2, socialc3], .7 ,{
     
    
   </div>
-  <div className='computer'>
+  <div className='computer' ref = {el => football = el}>
   <svg
   width="1126"
   height="550"

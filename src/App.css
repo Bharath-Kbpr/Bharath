@@ -1691,19 +1691,21 @@ margin-top: 30%;
 }
 .computer{
   display: none;
-  margin-left: 20%;
+  margin-left: 30%;
   position: absolute;
   bottom: 4rem;
-
+width: 250px;
  
 }
 @media(max-width:400px){
  .computer{
    display: block;
+   opacity: 1;
+  
  }
   .computer svg{
    display: block;
-    width: 90%;
+    width: 100%;
     z-index: 10 !important;
   
   }
