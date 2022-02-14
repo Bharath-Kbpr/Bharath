@@ -55,7 +55,7 @@ let containerintro = useRef(null);
     //     ease:easeio
     // })
     timeline.to([containerintro],.5 ,{
-        
+      delay:4.5,
         left:"-100%",
         ease:easeio
     })
