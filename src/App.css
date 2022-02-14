@@ -1488,10 +1488,10 @@ display: none;
         opacity: 0%;
     }
     1% {
-        opacity: 100%;
+        opacity: 100% !important;
     }
     99% {
-        opacity: 100%;
+        opacity: 100% !important;
     }
     100% {
         opacity: 0%;
@@ -1558,11 +1558,11 @@ display: none;
         opacity: 0%;
     }
     1% {
-        opacity: 100%;
+        opacity: 100% !important;
     }
 
     19% {
-        opacity: 100%;
+        opacity: 100% !important;
     }
     20% {
         opacity: 0%;
@@ -1572,11 +1572,11 @@ display: none;
         opacity: 0%;
     }
     40% {
-        opacity: 100%;
+        opacity: 100% !important;
     }
 
     59% {
-        opacity: 100%;
+        opacity: 100% !important;
     }
     60% {
         opacity: 0%;
@@ -1586,11 +1586,11 @@ display: none;
         opacity: 0%;
     }
     80% {
-        opacity: 100%;
+        opacity: 100% !important;
     }
 
     100% {
-        opacity: 100%;
+        opacity: 100% !important;
     }
 }
 
