@@ -33,7 +33,7 @@ let menu_item4p = useRef(null);
 
 let containerintro = useRef(null);
 
-let introbharath = useRef(null);
+// let introbharath = useRef(null);
 
     useEffect(() => {
     //   timeline.to([signaturep], .5 ,{
@@ -49,11 +49,11 @@ let introbharath = useRef(null);
     // },
     // })
 
-    timeline.to([introbharath],.6 ,{
-      delay:4,
-        scale:80,
-        ease:easeio
-    })
+    // timeline.to([introbharath],.6 ,{
+    //   delay:4,
+    //     scale:80,
+    //     ease:easeio
+    // })
     timeline.to([containerintro],.5 ,{
         
         left:"-100%",
@@ -121,7 +121,7 @@ timeline.from([fireimg], .8, {
            <div className="text-3 text">Bharath  kbpr</div>
            <div className="text-4 text">Bharath  kbpr</div>
            <div className="text-5 text">Bharath  kbpr</div>
-           <div className="text-6 text" ref ={el => introbharath = el}>Bharath  kbpr</div>
+           <div className="text-6 text" >Bharath  kbpr</div>
            <div className="text-7 text">Bharath  kbpr</div>
            <div className="text-8 text">Bharath  kbpr</div>
            <div className="text-9 text">Bharath  kbpr</div>
