@@ -31,9 +31,9 @@ let menu_item3p = useRef(null);
 let menu_item4p = useRef(null);
 
 
-let containerintro = useRef(null);
+// let containerintro = useRef(null);
 
-let introbharath = useRef(null);
+// let introbharath = useRef(null);
 
     useEffect(() => {
     //   timeline.to([signaturep], .5 ,{
@@ -48,16 +48,17 @@ let introbharath = useRef(null);
     //     amount: .4
     // },
     // })
-    timeline.to([introbharath],.6 ,{
-      delay:4,
-        scale:80,
-        ease:easeio
-    })
-    timeline.to([containerintro],.5 ,{
+
+    // timeline.to([introbharath],.6 ,{
+    //   delay:4,
+    //     scale:80,
+    //     ease:easeio
+    // })
+    // timeline.to([containerintro],.5 ,{
         
-        left:"-100%",
-        ease:easeio
-    })
+    //     left:"-100%",
+    //     ease:easeio
+    // })
  timeline.from(logop, .8, {
         
   opacity: 0,
@@ -112,7 +113,7 @@ timeline.from([fireimg], .8, {
    </div>
   </div>
    <section>
-   <div className='container' ref ={el => containerintro = el}>
+   {/*<div className='container' ref ={el => containerintro = el}>
     
     <div className="text_wrapper">
            <div className="text-1 text">Bharath  kbpr</div>
@@ -129,7 +130,7 @@ timeline.from([fireimg], .8, {
         </div>
     
       
-    </div>
+</div>*/}
 
      <div className='p_navbar'>
         <div className='p_logo' ref = {el => logop = el}>
