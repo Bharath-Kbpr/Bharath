@@ -54,11 +54,11 @@ let containerintro = useRef(null);
     //     scale:80,
     //     ease:easeio
     // })
-    timeline.to([containerintro],.5 ,{
-      delay:4.5,
-        left:"-100%",
-        ease:easeio
-    })
+    // timeline.to([containerintro],.5 ,{
+    //   delay:4.5,
+    //     left:"-100%",
+    //     ease:easeio
+    // })
  timeline.from(logop, .8, {
         
   opacity: 0,
@@ -113,7 +113,7 @@ timeline.from([fireimg], .8, {
    </div>
   </div>
    <section>
-   <div className='container' ref ={el => containerintro = el}>
+   <div className='container' >
     
     <div className="text_wrapper">
            <div className="text-1 text">Bharath  kbpr</div>
