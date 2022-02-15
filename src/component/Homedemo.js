@@ -145,7 +145,7 @@ timeline.from([fireimg], .8, {
             <li ref = {el => menu_item3p = el}><a href="/portfolio">PORTFOLIO</a></li>
             <li ref = {el => menu_item4p = el}><a href="/Contact">CONTACT</a></li>
           </ul>
-          <span className='p__menuitemsMobile' onClick={handleChange}>&lt;MENU&#x2215;&gt;</span>
+          <span className='p__menuitemsMobile' onClick={handleChange} style={{color:"#ffffff"}}>&lt;MENU&#x2215;&gt;</span>
         </div>
      </div>
      <div className='p_intro'>

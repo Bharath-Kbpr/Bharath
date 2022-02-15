@@ -145,7 +145,7 @@ function Portfolio({timeline, ease}) {
   </div>
   </div>
   <div className='project__collection' ref = {el => projects = el}>
-      <div className='item-image1 img-look' ><p ref = {el => project1 = el}>HOSTSTAR CLONE</p></div>
+      <div className='item-image1 img-look' ><p ref = {el => project1 = el}>HOTSTAR CLONE</p></div>
       <div className='item-image2 img-look' ><p ref = {el => project2 = el}>FOOD RECIPE</p></div>
       <div className='item-image3 img-look' ><p ref = {el => project3 = el}>TESLA CLONE</p></div>
       <div className='item-image4 img-look' ><p ref = {el => project4 = el}>AMAZON CLONE</p></div>

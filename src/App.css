@@ -77,7 +77,9 @@ body{
   padding: 0 1rem;
 }
 .p__menuitemsMobile{
-  color:#494949;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: 'Dela Gothic One';
   display: none;
 }
@@ -1396,9 +1398,11 @@ display: none;
 
 .kbpr__ContactmenuitemsMobile{
 
-  color: #494949;
+ background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 display: none;
-
+font-family: 'Dela Gothic One';
 
 }
 
