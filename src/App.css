@@ -423,6 +423,8 @@ color: #ffffff;
 .kbpr__menuitemsMobile{
   display: none;
   cursor: pointer;
+ 
+  
 }
 .kbpr__menuitems {
   display: flex;
@@ -442,10 +444,13 @@ color: #ffffff;
   }
   .kbpr__menuitemsMobile{
     display: block;
+    font-family: 'Dela Gothic One';
   }
   
 }
-
+.kbpr__menuitemsMobile-about{
+  font-family: 'Dela Gothic One';
+}
 
 
 .b_introduc{
@@ -1051,7 +1056,10 @@ border: 1px solid red;
 
 .kbpr__projectmenuitemsMobile{
   display: none;
-
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Dela Gothic One';
 }
 .img-look{
   margin: 7vw 5vw 5vw 5vw;
