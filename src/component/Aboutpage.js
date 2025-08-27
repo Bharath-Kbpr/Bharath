@@ -155,11 +155,6 @@ function Aboutpage({ timeline, ease }) {
               fueled by continuous learning and a passion for creating impactful
               digital solutions."
             </p>
-            <span className="resume">
-              <a href={resume} target="_blank" rel="noopener noreferrer">
-                Resume
-              </a>
-            </span>
           </div>
         </div>
       </div>
